@@ -3,19 +3,21 @@ img{
     border-radius: 200px;
 }
 .main-image{
-    border-color: black;
-    border-style: double;
+    border-color: rgb(67, 142, 142);
+    border-style: outset;
     border-width: 5px;
     height: 100px;
     width: 100px;
-    border-radius: 200px;
-    margin-left: 5px;
+    border-radius: 60px;
+    margin-left: 8px;
 }
 body{
-    background-image: linear-gradient(cyan,navy);
+    background-image: linear-gradient(cyan,rgb(42, 42, 168));
 }
 .title{
-    border-style: solid;
-    border-color: black;
+    border-style: inset;
+    border-color: rgb(51, 175, 232);
+    border-width: 5px;
+    border-radius: 10px;
     text-align: center;
 }
