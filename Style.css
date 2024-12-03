@@ -12,7 +12,7 @@ img{
     margin-left: 5px;
 }
 body{
-    background-color: rgb(48, 215, 215);
+    background-image: linear-gradient(cyan,blue);
 }
 .title{
     border-style: solid;
