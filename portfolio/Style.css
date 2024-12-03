@@ -1,0 +1,21 @@
+img{
+    height: 100px;
+    border-radius: 200px;
+}
+.main-image{
+    border-color: black;
+    border-style: double;
+    border-width: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 200px;
+    margin-left: 5px;
+}
+body{
+    background-color: azure;
+}
+.title{
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
