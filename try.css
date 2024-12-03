@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://assets.bonappetit.com/photos/5c366551f212512d0e6cefd0/16:9/w_2560%2Cc_limit/Basically-Coffee-0219-03.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu {
+    background-color: rgba(241, 175, 113, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.menu h1 {
+    margin: 0;
+    font-size: 29px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu hr {
+    border: 0;
+    height: 3px;
+    background-color: #800000;
+    margin: 10px 0;
+}
+
+.menu .section {
+    margin: 20px 0;
+}
+
+.menu .section h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.menu .section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu .section ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.menu .footer {
+    margin-top: 20px;
+}
+
+.menu .footer a {
+    color: #800000;
+    text-decoration: none;
+}
+
+.coffee{
+    height: 40px;
+}
+
+.cake{
+    height: 28px;
+    margin-top: 5px;
+}
