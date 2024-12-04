@@ -1,0 +1,97 @@
+body{
+    background-color: grey;
+    padding-bottom: 5px;
+}
+.sub-title{
+    color: white;
+    background-color: black;
+    height: 35px;
+    /* padding-top:5px; */
+    padding-left: 5px;
+}
+.detail{
+    color: black;
+    margin-left: 10px;
+}
+.content{
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+hr{
+    border: 0;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+}
+#icon::before{
+    content: "GREATEARTH_";
+    animation: change 5s infinite;
+}
+@keyframes change {
+    0%{
+        content: "_";
+    }
+    5%{
+        content: "G_";
+    }
+    10%{
+        content: "GR_";
+    }
+    15%{
+        content: "GRE_";
+    }
+    20%{
+        content: "GREA_";
+    }
+    25%{
+        content: "GREAT_";
+    }
+    30%{
+        content: "GREATE_";
+    }
+    35%{
+        content: "GREATEA_";
+    }
+    40%{
+        content: "GREATEAR_";
+    }
+    45%{
+        content: "GREATEART_";
+    }
+    50%{
+        content: "GREATEARTH_";
+    }
+    55%{
+        content: "GREATEART_";
+    }
+    60%{
+        content: "GREATEAR_";
+    }
+    65%{
+        content: "GREATEA_";
+    }
+    70%{
+        content: "GREATE_";
+    }
+    75%{
+        content: "GREAT_";
+    }
+    80%{
+        content: "GREA_";
+    }
+    85%{
+        content: "GRE_";
+    }
+    90%{
+        content: "GR_";
+    }
+    95%{
+        content: "G_";
+    }
+    100%{
+        content: "_";
+    }
+}

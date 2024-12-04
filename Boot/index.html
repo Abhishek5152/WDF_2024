@@ -3,36 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>GreatEARTH</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="Sty.css"> -->
+    <link rel="stylesheet" href="Sty.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav id="home" class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="Earth.png" alt="Earth" width="20px" style="margin-bottom: 5px;"> <b>GreatEARTH</b></a>
+        <a class="navbar-brand" href="#"><img src="Earth.png" alt="Earth" width="20px" style="margin-bottom: 5px;"> <b><span id="icon"></b></span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#top">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Category</a>
+                <a class="nav-link" href="#goal">Category</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
+                <a class="nav-link" href="#join">About us</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#top" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Contact  
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Customer Service</a></li>
-                    <li><a class="dropdown-item" href="#">Community</a></li>
-                    <li><a class="dropdown-item" href="#">Twitt us</a></li>
+                    <li><a class="dropdown-item" href="https://youtu.be/dQw4w9WgXcQ">Customer Service</a></li>
+                    <li><a class="dropdown-item" href="https://youtu.be/dQw4w9WgXcQ">Community</a></li>
+                    <li><a class="dropdown-item" href="https://youtu.be/dQw4w9WgXcQ">Twitt us</a></li>
                 </ul>
             </li>
             </ul>
@@ -65,7 +65,44 @@
           <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <h2 style="color: white;">No Way</h2>
+    <div id="top" class="content">
+        <h3 class="sub-title">Welcome to GreatEARTH</h3>
+        <p class="detail">
+            At GreatEARTH, we are dedicated to preserving and celebrating the beauty of our planet. Our mission is to raise awareness about environmental issues and inspire action through education, advocacy, and community engagement. We believe that every individual has the power to make a difference, and by working together, we can create a sustainable future for all.
+        </p>
+        <hr >
+        <p class="detail">
+            Our team is passionate about protecting the environment and promoting eco-friendly practices. We organize various events and campaigns to engage the community and spread the message of conservation. From tree plantation drives to beach clean-up activities, we are always on the lookout for enthusiastic volunteers to join our initiatives.
+        </p>
+        <hr>
+        <p class="detail">
+            Our website offers a wealth of resources, including articles, guides, and tips on how you can adopt a greener lifestyle. We also feature success stories of individuals and organizations that are making a positive impact on the environment. By sharing these stories, we hope to inspire others to take action and contribute to the global effort to save our planet.
+        </p>
+    </div>
+    <div id="goal" class="content">
+        <h4 class="sub-title">Our Goals</h4>
+        <ul class="detail">
+            <li>Promote sustainable living practices by providing resources and support to individuals and communities. We aim to educate people on the importance of reducing their carbon footprint and making eco-friendly choices in their daily lives.</li>
+            <li>Encourage the protection and conservation of natural resources through advocacy and community engagement. We work with local authorities and organizations to implement policies and initiatives that help preserve our natural habitats.</li>
+            <li>Support initiatives that aim to reduce environmental impact, such as renewable energy projects and waste management programs. We believe in the power of innovation and technology to drive positive change and create a more sustainable future.</li>
+            <li>Foster a sense of community and collaboration by organizing events and activities that bring people together. Our goal is to create a network of environmentally conscious individuals who can support and inspire each other to take action.</li>
+            <li>Advocate for policy changes at the local, national, and international levels to address environmental issues. We believe that systemic change is necessary to tackle the global environmental crisis, and we work tirelessly to influence decision-makers and push for stronger environmental regulations.</li>
+        </ul>
+    </div>
+    <div id="join" class="content">
+        <h4 class="sub-title">Join Us</h4>
+        <p class="detail">
+            We invite you to join us in our journey towards a greener future. Whether you are an individual, a family, or an organization, there are many ways to get involved and make a difference. Together, we can create a more sustainable and thriving world for future generations. By becoming a member of GreatEARTH, you will gain access to exclusive resources, events, and networking opportunities. 
+        </p>
+        <hr>
+        <p class="detail">
+            You can participate in our workshops, seminars, and community projects, and contribute your skills and expertise to our cause. We also offer various volunteering opportunities, allowing you to get hands-on experience in environmental conservation and make a tangible impact. We believe that everyone has something to offer, and we welcome individuals from all backgrounds and skill sets. 
+        </p>
+        <hr>
+        <p class="detail">
+            Whether you are a seasoned environmentalist or just starting out, there is a place for you at GreatEARTH. Join our forums and social media groups to connect with other members, share your ideas, and collaborate on projects. Together, we can amplify our efforts and create a greener future.
+        </p>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
