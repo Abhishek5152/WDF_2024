@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.sty.css">
+</head>
+<body>
+    <label for="num1">
+        <input type="number" name="n1" id="n1" placeholder="Number 1">
+    </label>
+    <select name="opr" id="opr">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <label for="num2">
+        <input type="number" name="n2" id="n2" placeholder="Number 2">
+    </label>
+    <br>
+    <p>Result: <span id="result"></span></p>
+    <button type="submit" onclick="Calculate()">Calculate</button>
+    <script src="calc.scpt.js"></script>
+</body>
+</html>
