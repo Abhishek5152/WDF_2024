@@ -7,22 +7,17 @@
     <link rel="stylesheet" href="bmi.sty.css">
 </head>
 <body>
-    <h2>BMI Calculator</h2>
-    <label for="Age">
-        <p>Age: <input id="age" placeholder="Your Age"></p>
-    </label>
-    <label for="Height">
-        <p>Height: <input id="ht" placeholder="Your Height"></p>
-    </label>
-    <label for="Weight">
-        <p>Weight: <input id="wt" placeholder="Your Weight"></p>
-    </label>
-    <select name="Gender" id="gen">
-        <option value="m">Male</option>
-        <option value="f">Female</option>
-    </select>
-    <button name="Calc" onclick="bmiCalc()">Calculate</button>
-    <p id="Result"></p>
+    <div class="calc">
+        <h2>BMI Calculator</h2>
+        <label for="Height">
+            <p>Height: <input id="ht" placeholder="Your Height"></p>
+        </label>
+        <label for="Weight">
+            <p>Weight: <input id="wt" placeholder="Your Weight"></p>
+        </label>
+        <button name="Calc" onclick="bmiCalc()">Calculate</button>
+        <p class="ans">Result: <span id="Result"></span></p>
+    </div>
     <script src="bmi.scpt.js"></script>
 </body>
 </html>
