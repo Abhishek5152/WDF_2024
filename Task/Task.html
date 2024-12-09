@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="taskInput" type="text" placeholder="Enter Task">
+    <button id="addTask">Add Task</button>
+    <ol id="taskList"></ol>
+
+    <script>
+        const taskInput = document.getElementById("taskInput");
+        const addTaskBtn = document.getElementById("addTask");
+        const taskList = document.getElementById("taskList");
+
+        addTaskBtn.addEventListener("click", () => {
+            const task = taskInput.value;
+            if(task){
+                const li = document.createElement("li");
+                li.textContent = task;
+                taskList.appendChild(li);
+                taskInput.value = "";
+            }
+        });
+    </script>
+</body>
+</html>
