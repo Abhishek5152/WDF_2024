@@ -1,4 +1,3 @@
-/* Light and Dark Theme Styles */
 :root {
     --background-color: #fff;
     --text-color: #000;
@@ -10,7 +9,6 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color);
-    background-image: linear-gradient(cyan, rgb(42, 42, 168));
     transition: background-color 0.3s, color 0.3s;
 }
 img {
@@ -42,7 +40,4 @@ nav {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-}
-.project-gallery img {
-    transition: transform 0.3s;
 }
