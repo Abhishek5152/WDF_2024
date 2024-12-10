@@ -1,8 +1,23 @@
-img{
+/* Light and Dark Theme Styles */
+:root {
+    --background-color: #fff;
+    --text-color: #000;
+}
+[data-theme="dark"] {
+    --background-color: #333;
+    --text-color: #fff;
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    background-image: linear-gradient(cyan, rgb(42, 42, 168));
+    transition: background-color 0.3s, color 0.3s;
+}
+img {
     height: 100px;
     border-radius: 200px;
 }
-.main-image{
+.main-image {
     border-color: rgb(67, 142, 142);
     border-style: outset;
     border-width: 5px;
@@ -11,13 +26,23 @@ img{
     border-radius: 60px;
     margin-left: 8px;
 }
-body{
-    background-image: linear-gradient(cyan,rgb(42, 42, 168));
-}
-.title{
+.title {
     border-style: inset;
     border-color: rgb(51, 175, 232);
     border-width: 5px;
     border-radius: 10px;
     text-align: center;
+}
+nav a {
+    cursor: pointer;
+    margin: 0 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.project-gallery img {
+    transition: transform 0.3s;
 }
